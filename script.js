@@ -40,3 +40,47 @@ console.log("In ten years i will be " + ageInTen);
 console.log("My age in dog years is " + ageDogYear);
 //using the plus sign with at least on "String"
 //means youre combining (concattenating) not doing addition
+
+
+/*FUNCTIONS:
+Reusable sets of code statments that preform a specific task or process
+ */
+
+// console.log is just a FUNCTION that weve used
+console.log("i just used a function");
+
+// DECLARE (create) your own function
+function skincare() {
+    //STATEMENTS (actions)to execute this for a routine
+    console.log("1. Cleanse")
+    console.log("2. apply toner")
+    console.log("2.  moisturize")
+}
+
+//CALL the function to use it 
+skincare();
+skincare(); // can run the function again
+
+// 4 types of FUNCTIONS
+//input- yes or no? output- yes or no?
+
+
+//SANDWICH - need,input,provide output
+// if you need input, list the (parameters)
+function makeSandwich(filling, sauce, bread) {
+
+    //put the ingredients together
+    let sandwich;
+    sandwich = filling + " and " + sauce + " on "  + bread;
+    //if you give output use the word  RETURN
+    return sandwich;
+
+}
+
+// using a function with input
+// means YOU need to provide arguments in the parentheisis
+
+let mySandwich = makeSandwich("turkey", "pesto" , "bagguette");
+console.log(mySandwich);
+
+
