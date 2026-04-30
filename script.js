@@ -84,3 +84,55 @@ let mySandwich = makeSandwich("turkey", "pesto" , "bagguette");
 console.log(mySandwich);
 
 
+
+
+/*Selection/branching (CONDITIONS)
+A BOOLEAN EXPRESSION is like a question that has a boolean ANSWER(true/false) */
+
+console.log(3 < 4);//true
+console.log( 10 < 2);
+console.log(100 > 3);
+
+// Check for EQUALITY using a == operator
+console.log(1 == 1 );
+console.log(2.5 == 2);
+
+console.log("Alyn" == "Alyn");// true, strings match
+console.log("apple" == "Apple");// false case matters
+
+//example : password
+let password = "hello123";
+console.log("hbjwxbwjcbjw" == password);
+
+let typedInput ="hello123";
+console.log(typedInput == password);
+
+console.log("bob" != "bob") //!= check if NOT equal
+
+
+//IF STATEMENTS use boolean expression(conditions)
+// to make decsions about which code to run
+
+
+let userAge = 16;
+
+if( userAge >= 17) {
+    console.log("you can get your NY liscense");
+
+}
+
+// ELSE IF blocks let you test multiple options 
+
+else if(userAge == 16){
+    console.log("You can a learners permit")
+
+}
+
+
+
+//ELSE blocks account for the "otherwise.." case
+
+else {
+    console.log("you can not get your NY liscense");
+
+}
